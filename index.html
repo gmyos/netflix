@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/ddf9c1b087.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <!-- OWL CSS-->
+  <link rel="stylesheet" href="/styles/owl.carousel.min.css">
+  <link rel="stylesheet" href="/styles/owl.theme.default.min.css">
+</head>
+<body>
+  <header> 
+    <div class="container"> <!-- tudo da barra de navegação dentro desta div -->
+     <h2 class="logo">NETFLIX CLONE</h2>
+     <nav>
+       <a href="#">HOME</a>
+       <a href="#">MOVIES</a>
+       <a href="#">TV SHOWS</a>
+       <a href="#">MY LIST</a>
+       <a href="#">UPCOMING</a> 
+       <a href="#"><i class="fa fa-bell" aria-hidden="true"></i> </a>
+       <a class="search" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+       </a>
+     </nav> <!-- tag semantica, menu de navegação-->
+    </div>
+  </header> <!-- cabeçalho, aqui dentro está definido menu de navegação (nav bar)-->
+ <main>
+  <div class="FMovie">
+    <div class="container">
+   <h3 class="titulo"> RICK AND MORTY </h3>
+    <p class="description"> Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school. </p>
+    <div class="buttons">
+    <button role="button1" class="button"> 
+    <i class="fas fa-play"></i> &nbsp; WATCH </button>
+    <button role="button2" class="button"> + ADD TO LIST </button>
+    </div>
+   </div>
+  </div>
+ </main> <!-- conteudo principal/Miolo-->
+  
+ <div class="CMOVIE">
+ <div class="owl-carousel owl-theme">
+  <div class="item">
+    <img class="moviebox" src="/resources/luca.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/bigbang.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/cruela.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/lord.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/simp.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/soul.jpeg" alt="">
+  </div>
+  <div class="item">
+    <img class="moviebox" src="/resources/st.jpeg" alt="">
+  </div>
+
+ 
+</div>
+</div>
+
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
+<script src="./js/owl/setup.js"></script>
+
+
+</body>
+</html>
